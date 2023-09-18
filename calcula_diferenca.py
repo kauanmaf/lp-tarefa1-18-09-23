@@ -1,7 +1,6 @@
 from datetime import date
 import doctest
 
-
 def data_diferenca(datas):
     """
     Parameters
@@ -21,9 +20,11 @@ def data_diferenca(datas):
 
     Exemplos:
         
-        >>>data_diferenca( ('2023-09-08', '2023-10-20') )
+        >>> data_diferenca( ('2023-09-08', '2023-10-20'))
         42
         
+        >>> data_diferenca( ('2023-09-08', '2023-09-08') )
+        0
     """
     
     # Converte as datas para o formato date
