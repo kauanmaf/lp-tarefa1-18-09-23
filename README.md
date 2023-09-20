@@ -8,8 +8,8 @@ Equipe: Henzo, Pavanato, Jeann
 
 Testes feitos com unittest no 2° dia de trabalho.
 
-Não foi possível trabalhar com o unittest pois a main não possuia função. Por isso, perdemos um tempo absurdo tratanto o código para possibilitar os testes. 
-Eis os erros que encontramos sem a ajuda das classes:
+Não foi possível trabalhar com o unittest pois a main não possuia função. Por isso, perdemos um tempo absurdo tratanto o código para possibilitar os testes.\
+Eis os erros que encontramos sem a ajuda das classes:\
  . Quando o arquivo inserido não é um .txt o erro não é tratato;
  . O mesmo ocorre quando o número na data é um negativo;
  . Não houve tratamento de ValueError ou de nenhum outro erro que não seja o formato do arquivo;
