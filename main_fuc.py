@@ -21,3 +21,5 @@ def input():
 
     print()
     print(f"O número de dias entre as datas mencionadas é {dias}.")
+
+    return dias
