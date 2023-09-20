@@ -1,6 +1,5 @@
 import unittest
 import main as ut
-from main import 
 # Teste automático x Teste Manual
 
 
@@ -10,11 +9,8 @@ class TestFatorial(unittest.TestCase):
 
     # Equivalence Class Method
     # Testar as partições, apenas 1 já é suficiente
-    def teste_greater_than_1(self):
-        # self.assertEqual(ut.fatorial(2),2)
-        # self.assertEqual(ut.fatorial(3),6)
-        # self.assertEqual(ut.fatorial(4),24)
-        self.assertEqual(ut.fatorial(5),120)
+    def teste_data_negativa(self):
+        self.assertEqual(ut.aux,120)
     
     def test_lesser_than_0(self):
         self.assertEqual(ut.fatorial(-1),1)
