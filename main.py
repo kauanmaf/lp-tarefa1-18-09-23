@@ -20,3 +20,4 @@ dias = cd.data_diferenca(data_convertida) # número de dias entre as duas datas
 
 print()
 print(f"O número de dias entre as datas mencionadas é {dias}.")
+     
