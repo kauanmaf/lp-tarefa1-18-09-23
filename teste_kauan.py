@@ -1,5 +1,6 @@
 import unittest
 import main as ut
+from main import 
 # Teste automático x Teste Manual
 
 
