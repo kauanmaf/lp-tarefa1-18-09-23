@@ -7,7 +7,7 @@ if __name__ == '__main__':
     doctest.testmod(aux)
     doctest.testmod(cd)
 
-def input():
+def input_func():
     nome = input("Digite o nome do arquivo: ")
 
     if ".txt" in nome:

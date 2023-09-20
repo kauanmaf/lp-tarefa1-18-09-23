@@ -7,12 +7,9 @@ import main_fuc
 
 class Teste_Le_Arquivo(unittest.TestCase):
     @patch('builtins.input', side_effect=['data.csv'])
-    def leitura_arquivo(self):
-        input()
-        self.assertEqual()
-
-
-
+    def leitura_arquivo(self, mock_input):
+        resultado = main_fuc.input_func()
+        self.assertEqual(resultado, 1)
 
 
 
