@@ -32,6 +32,8 @@ def le_arquivo(txt):
     except:
         print(f'O arquivo de texto "{txt}" não foi encontrado!')
 
+print(le_arquivo("data.csv"))
+
 
 def return_date(date_input):
     """
